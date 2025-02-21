@@ -1,0 +1,321 @@
+@import url(https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;800;900&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Livvic', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 165px;
+}
+.header{
+    background-color: #014E56;
+    border: 2px solid burlywood;
+    max-width: 1440px;
+    height: 700px;    
+}
+.nav{
+    width: 100%;
+    height: 48px;
+    border: 2px solid blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 71px 0;
+}
+.nav ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.nav ul li{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+.btn{
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;   
+    border: 2px solid white;
+    background-color: #014E56 ;
+    color: white;
+}
+.h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    letter-spacing: 0px;
+    width: 350px;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+.pi{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    max-width: 730px;
+    height: 112px;
+    margin-top: 44px;
+    color: white;
+    text-align: center;
+}
+
+
+.text{
+    max-width: 1110px;
+    height: 156px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+}
+.imgg{
+    display: none;
+}
+
+
+
+.directors {
+    background-color: #004047;
+    color: white;
+    max-width: 1440px;
+    height: 700px;
+
+}
+.h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+   
+}
+
+.member {
+    text-align: center;
+    width: 350px;
+    height: 305px;
+    background-color: #012F34;
+    padding: 20px 103px;
+} 
+.member h3{
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #79C8C7;    
+}
+.member p{
+    font-family: Livvic;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    
+}
+
+.member button {
+    background-color: #F67E7E;
+    border: none;
+    color: white;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.podpisi{
+    max-width: 1440px;
+    height: 355px;
+    background-color:  #012F34 ;
+}
+.podpisi h4{
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white; 
+
+}
+.texta{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 55px;
+    max-width: 100%;
+}
+
+
+
+.containerr {
+    width: 80%;
+    max-width: 768px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Секция CTA (Call to Action) */
+.cta {
+    background-color: #d96d6d;
+    padding: 40px 0;
+}
+
+.cta h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btnn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Подвал */
+.footer {
+    background-color: #062d34;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.social-icons {
+    margin-right: 20px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+
+@media (max-width: 1399.98px) { 
+    .nav{
+        height: 48px;
+        margin-top: 64px;
+        margin-left: 39px;
+    }
+    .header{
+        height: 556px;        
+    }
+
+ }
+ @media (max-width: 1228.98px) { 
+   .text{
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 120px;
+   }
+
+   .team{
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+   .directors{
+    height: 1500px;
+   }
+   .texta{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+   }
+   .podpisi{
+
+    height: 500px;
+   }
+ }
+
+
+
+
+ @media (max-width: 700px) { 
+   .nav{
+    max-width: 400px;
+   }
+  .pi{
+    margin-bottom: 100px;
+  }
+ }
+ @media (max-width: 600px) { 
+    .pi{
+        margin-top: 600px;
+    }
+    
+ }
+
+ @media (max-width: 1000px) { 
+    .nav{
+        height: 48px;
+        margin-top: 64px;
+        margin-left: 39px;
+    }
+    .header{
+        height: 556px;        
+    }
+ }
+ @media (max-width: 950px) { 
+    .nav ul{
+       display: none; 
+    }
+    .imgg{
+        display: initial;
+        margin-right: 50px;
+    }
+    
+    .h1{
+        font-family: Livvic;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: center;
+
+    }
+    .pi{
+        font-family: Livvic;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-top: 16px;
+    }
+ }
+
